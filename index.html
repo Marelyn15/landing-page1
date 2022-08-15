@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Seccion informativa
+    __ = clases y sub clases Container__content
+    -- = Modificador
+    - = con que es modificado ejemplo - red
+    -->
+    <section class="container">
+        <!--Section 1-->
+        <img src="./imgs/logo.svg" class="container__logo">
+        <!--Section 2-->
+        <img src="./imgs/Modelo.jpg" alt="picture-modelo" class="container__picture">
+        <!--Section 3-->
+        <div class="container__content">
+            <h1 class="container__content__tittle">
+                <span class="container__content__title--color-red"> We`re</span> coming soon 
+            </h1>
+            <p class="container__content__description">Hello fellow shoppers! We`re currently building our new fashion store.
+                Add your email below to stay up-date with announcements and our lauch deals.</p>
+            <form action="" class="container__content__form">
+                <input type="email" class="container__content__form__email" placeholder="Email Address">
+                <input type="image" src="./imgs/chevron-up-solid-24.png"class="container__content__form__botton">
+                <!--Para trabajar luego con js-->
+                <p   class="container__content__form__email--error"></p>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p class="atribution">
+            Challeng by <a href="https://www.youtube.com/watch?v=EOZbUCc6JhM&t=704s" target="_blank">Frontend mentor</a>
+            Code by <a href="https://github.com/Marelyn15" target="_blank">Marelyn Deschamps with a tutorial</a>
+        </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
